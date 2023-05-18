@@ -12,7 +12,7 @@ Pet* MemoryOperations::memmove(
             destination_p[i] = source_p[i];
         }
     } else {
-        for (int32_t i = 0; i < count; i++) {
+        for (int32_t i = 0; i < count; ++i) {
             destination_p[i] = source_p[i];
         }
     }
